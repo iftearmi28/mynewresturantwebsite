@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+.section1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+.container1{
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.281);
+    width:400px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    margin:5px;
+
+}
+.form1{
+    padding: 30px 40px;
+}
+.form-control1{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control1 label{
+    color: rgb(153, 152, 152);
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control1 input{
+    border: 2px solid rgba(168, 168, 168, 0.466);
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-control1 input:focus{
+    outline: 0px;
+    border-color: rgb(160, 158, 158);
+}
+.form-control1.success input{
+    border-color: rgb(104, 252, 153); 
+}
+.form-control1.error input{
+    border-color: rgb(245, 67, 67); 
+}
+.form-control1 small{
+    color: rgb(245, 67, 67);
+    position :absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.form-control1.error small{
+    visibility: visible;
+}
+.button{
+    padding:10px ;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    width:100%;
+    border: none;
+    font-size: 16px;
+    display: block;
+}
+
+/*order form*/
+.section2{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.container2{
+width: 40%;
+background: rgb(162, 240, 240);
+margin:10px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.281);
+
+}
+
+
+.form2{
+    padding: 30px 40px;
+}
+.form-control2{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control2 label{
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-control2 input{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-control2 input:focus{
+    outline: 0px;
+    border-color: rgb(255, 178, 89);
+}
+.form-control2.success input{
+    border-color: rgb(104, 252, 153); 
+}
+.form-control2.error input{
+    border-color: rgb(245, 67, 67); 
+}
+.form-control2 span{
+    color: rgb(245, 67, 67);
+    position :absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.form-control2.error span{
+    visibility: visible;
+}
+.button2{
+    padding:10px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: rgb(116, 252, 195);
+    color: black;
+    width:100%;
+    border: none;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
